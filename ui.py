@@ -1,3 +1,6 @@
+from db import database
+def message(msg):
+    print(msg)
 def get_non_empty_string(question):
     # todo validation
     return input(question)
